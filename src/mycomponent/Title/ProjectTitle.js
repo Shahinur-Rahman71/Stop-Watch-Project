@@ -5,7 +5,7 @@ class ProjectTitle extends Component {
         super();
         this.state={
             isInput: false,
-            titleName: 'Stop Watch is my first project'
+            titleName: 'Stop Watch Project'
         }
     }
     TitlechangeHandler=(e)=>{

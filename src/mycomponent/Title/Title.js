@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 class Welcome extends Component {
     state={
         isediting: false,
-        nameTitle: "Please,write your name"
+        nameTitle: "Please, write your name"
     }
 
     onChangeHandler=(event)=>{
@@ -41,7 +41,7 @@ class Welcome extends Component {
                         className="ml-5"
                         onClick={()=> this.setState({isediting: true})}                
                         style={{cursor: 'pointer'}}>
-                        <i className="fas fa-edit "> Net Nai</i>
+                        <i className="fas fa-edit "></i>
                     </span>
                     
                 </div>
